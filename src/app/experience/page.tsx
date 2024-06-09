@@ -39,7 +39,53 @@ export default function Experience() {
                 </div>
               </AccordionTrigger>
               <AccordionContent className="bg-blue-200 dark:bg-blue-900 px-4 py-6">
-                <p>test</p>
+
+                <section className="w-full py-12 md:py-24 lg:py-32">
+                  <div className="container grid max-w-5xl items-center justify-center gap-8 px-4 md:px-6 lg:grid-cols-2 lg:gap-12 xl:max-w-6xl">
+                    <div className="space-y-4 md:space-y-6">
+                      <div className="space-y-2">
+                        <h3 className="text-2xl font-bold tracking-tighter sm:text-3xl md:text-4xl">LesPeps76</h3>
+                        <p className="text-gray-500 dark:text-gray-400">Educateur</p>
+                      </div>
+                      <div className="flex items-center space-x-4">
+                        <p className="text-sm text-gray-500 dark:text-gray-400">Du 23/05/2023 au 21/07/2023</p>
+                      </div>
+                      <img
+                        src="/img/experience/Logo-LesPep76.jpg"
+                        width={550}
+                        height={310}
+                        alt="Image"
+                        className="mx-auto aspect-video overflow-hidden rounded-xl object-cover object-center sm:w-full"
+                      />
+                      <div className="space-y-2">
+                        <h4 className="text-lg font-semibold">Activités</h4>
+                        <p className="text-gray-500 dark:text-gray-400">
+                          Elle contribue à l'éducation et à la formation des enfants, des adolescents et des adultes, tout particulièrement de ceux victimes de la pauvreté et de l'exclusion sociale ou en situation de handicap.
+                        </p>
+                      </div>
+                      <div className="space-y-2">
+                        <h4 className="text-lg font-semibold">Environnement technologique de l'entreprise</h4>
+                        <p className="text-gray-500 dark:text-gray-400">
+                          <ul>
+                            <li>Ordinateur portable</li>
+                            <li>Server</li>
+                          </ul>
+
+                          
+                        </p>
+                      </div>
+                      <div className="space-y-2">
+                        <h4 className="text-lg font-semibold">Réalisation</h4>
+                        <p className="text-gray-500 dark:text-gray-400">
+                          Refont du site web PRH 76
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+
+                
+
               </AccordionContent>
             </AccordionItem>
           </Accordion>
