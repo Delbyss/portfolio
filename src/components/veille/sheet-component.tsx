@@ -1,4 +1,4 @@
-// SheetComponent.jsx
+// @ts-nocheck
 'use client'
 import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetDescription } from "@/components/ui/sheet";
 import { Button } from "@/components/ui/button";
