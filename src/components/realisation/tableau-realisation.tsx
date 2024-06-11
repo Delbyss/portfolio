@@ -4,7 +4,7 @@ import { useState } from "react"
 
 export default function TableauRealisation() {
     const [activeSection, setActiveSection] = useState("skills")
-    const toggleSection = (section : string) => {
+    const toggleSection = (section: string) => {
         setActiveSection(section)
     }
     const data = {
@@ -166,11 +166,14 @@ export default function TableauRealisation() {
                             <div key={index} className="flex justify-between items-center bg-[#f8d7da] p-4 border border-[#f5c6cb]">
                                 <h2 className="text-lg font-semibold">{competence.titre}</h2>
                                 <div className="flex flex-col space-y-2">
-                                    {competence.realisations.map((realisationId, index) => (
-                                        <div key={index} className="text-lg font-semibold">
-                                            {data.realisations.find(realisation => realisation.id === realisationId).titre}
-                                        </div>
-                                    ))}
+                                    {competence.realisations.map((realisationId, index) => {
+                                        const realisation = data.realisations.find(realisation => realisation.id === realisationId);
+                                        return (
+                                            <div key={index} className="text-lg font-semibold">
+                                                {realisation ? realisation.titre : "Titre non disponible"}
+                                            </div>
+                                        );
+                                    })}
                                 </div>
                             </div>
                         ))}
@@ -182,11 +185,14 @@ export default function TableauRealisation() {
                             <div key={index} className="flex justify-between items-center bg-[#f8d7da] p-4 border border-[#f5c6cb]">
                                 <h2 className="text-lg font-semibold">{realisation.titre}</h2>
                                 <div className="flex flex-col space-y-2">
-                                    {realisation.competences.map((competenceId, index) => (
-                                        <div key={index} className="text-lg font-semibold">
-                                            {data.competences.find(competence => competence.id === competenceId).titre}
-                                        </div>
-                                    ))}
+                                    {realisation.competences.map((competenceId, index) => {
+                                        const competence = data.competences.find(competence => competence.id === competenceId);
+                                        return (
+                                            <div key={index} className="text-lg font-semibold">
+                                                {competence ? competence.titre : "Titre non disponible"}
+                                            </div>
+                                        );
+                                    })}
                                 </div>
                             </div>
                         ))}
