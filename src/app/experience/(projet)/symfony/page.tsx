@@ -1,3 +1,4 @@
+import Image from "next/image";
 
 export default function Symfony() {
     return (
@@ -8,7 +9,7 @@ export default function Symfony() {
                     <section className="bg-gray-100 p-6 rounded-lg">
                         <h2 className="text-2xl font-semibold mb-4">Contexte</h2>
                         <p>
-                            Le contexte du projet concerne la création d'une application de gestion des entreprises pour le lycée La
+                            Le contexte du projet concerne la création d&apos;une application de gestion des entreprises pour le lycée La
                             Châtaigneraie, dans le cadre de la formation en BTS SIO (Services Informatiques aux Organisations). Chaque
                             année, les étudiants de première et deuxième année doivent effectuer des stages, et le lycée souhaite
                             faciliter la recherche de stages en référençant les entreprises susceptibles de les accueillir.
@@ -22,7 +23,7 @@ export default function Symfony() {
                                 <div>
                                     <h3 className="font-semibold">Accès Simplifié aux Informations</h3>
                                     <p>
-                                        Permettre aux enseignants et administrateurs d'accéder facilement à une base de données des
+                                        Permettre aux enseignants et administrateurs d&apos;accéder facilement à une base de données des
                                         entreprises pouvant accueillir des stagiaires.
                                     </p>
                                 </div>
@@ -33,7 +34,7 @@ export default function Symfony() {
                                     <h3 className="font-semibold">Recherche Multicritère</h3>
                                     <p>
                                         Offrir une fonctionnalité de recherche multicritère pour trouver des entreprises en fonction de
-                                        divers critères tels que la localisation, le secteur d'activité, les profils des tuteurs, etc.
+                                        divers critères tels que la localisation, le secteur d&apos;activité, les profils des tuteurs, etc.
                                     </p>
                                 </div>
                             </div>
@@ -65,7 +66,7 @@ export default function Symfony() {
                             </div>
                             <div className="w-full bg-gray-100 dark:bg-gray-950 py-6 px-4 md:px-6 lg:px-8 mt-8">
                                 <div className="max-w-6xl mx-auto flex items-center gap-6 w-1/4">
-                                    <img
+                                    <Image
                                         src="/img/experience/symfony/Trello.png"
                                         alt="Banner Image"
                                         width={300}
@@ -82,7 +83,7 @@ export default function Symfony() {
                                 <ViewIcon className="h-6 w-6 text-gray-600 mr-3" />
                                 <h3 className="font-semibold">Figma</h3>
                             </div>
-                            <p>Utilisation de Figma pour la création des maquettes de l'application Symfony. </p>
+                            <p>Utilisation de Figma pour la création des maquettes de l&apos;application Symfony. </p>
                             <div className="mt-4">
                                 <a href="https://www.figma.com/" className="flex items-center text-blue-600 hover:underline">
                                     <ExternalLinkIcon className="h-4 w-4 text-gray-600 mr-2" />
@@ -92,21 +93,21 @@ export default function Symfony() {
                             <div className="w-full bg-gray-100 dark:bg-gray-950 py-6 px-4 md:px-6 lg:px-8 mt-8">
                                 <div className="w-full bg-gray-100 dark:bg-gray-950 py-6 px-4 md:px-6 lg:px-8">
                                     <div className="max-w-6xl mx-auto flex items-center gap-6">
-                                        <img
+                                        <Image
                                             src="/img/experience/symfony/login.png"
                                             alt="Banner Image"
                                             width={300}
                                             height={300}
                                             className="flex-1 rounded-lg object-cover aspect-square"
                                         />
-                                        <img
+                                        <Image
                                             src="/img/experience/symfony/entreprise.png"
                                             alt="Banner Image"
                                             width={300}
                                             height={300}
                                             className="flex-1 rounded-lg object-cover aspect-square"
                                         />
-                                        <img
+                                        <Image
                                             src="/img/experience/symfony/liste_entreprise.png"
                                             alt="Banner Image"
                                             width={300}
@@ -135,14 +136,14 @@ export default function Symfony() {
                             <div className="w-full bg-gray-100 dark:bg-gray-950 py-6 px-4 md:px-6 lg:px-8 mt-8">
                                 <div className="w-full bg-gray-100 dark:bg-gray-950 py-6 px-4 md:px-6 lg:px-8">
                                     <div className="max-w-6xl mx-auto flex items-center gap-6 w-1/2">
-                                        <img
+                                        <Image
                                             src="/img/experience/symfony/github.png"
                                             alt="Banner Image"
                                             width={300}
                                             height={300}
                                             className="flex-1 rounded-lg object-cover aspect-square w-full"
                                         />
-                                        <img
+                                        <Image
                                             src="/img/experience/symfony/github_act.png"
                                             alt="Banner Image"
                                             width={300}
@@ -174,7 +175,7 @@ export default function Symfony() {
                                 <div className="w-full bg-gray-100 dark:bg-gray-950 py-6 px-4 md:px-6 lg:px-8">
                                     <div className="w-full bg-gray-100 dark:bg-gray-950 py-6 px-4 md:px-6 lg:px-8">
                                         <div className="max-w-6xl mx-auto flex items-center gap-6 w-1/4">
-                                            <img
+                                            <Image
                                                 src="/img/experience/symfony/gdrive.png"
                                                 alt="Banner Image"
                                                 width={600}
@@ -189,17 +190,17 @@ export default function Symfony() {
                     </section>
 
                     <section className="bg-gray-100 p-6 rounded-lg">
-                        <h2 className="text-2xl font-semibold mb-4">Structure de l'application</h2>
+                        <h2 className="text-2xl font-semibold mb-4">Structure de l&apos;application</h2>
                         <div className="bg-gray-200 p-4 rounded-lg">
                             <div className="flex items-center mb-4">
                                 <ViewIcon className="h-6 w-6 text-gray-600 mr-3" />
                                 <h3 className="font-semibold">Usercase</h3>
                             </div>
-                            <p>Usercase du projet Symfony, décrivant les différents acteurs et les fonctionnalités de l'application. </p>
+                            <p>Usercase du projet Symfony, décrivant les différents acteurs et les fonctionnalités de l&apos;application. </p>
 
                             <div className="w-full bg-gray-100 dark:bg-gray-950 py-6 px-4 md:px-6 lg:px-8 mt-8">
                                 <div className="max-w-6xl mx-auto flex items-center gap-6 w-1/4">
-                                    <img
+                                    <Image
                                         src="/img/experience/symfony/usecase.png"
                                         alt="Banner Image"
                                         width={300}
@@ -219,7 +220,7 @@ export default function Symfony() {
 
                             <div className="w-full bg-gray-100 dark:bg-gray-950 py-6 px-4 md:px-6 lg:px-8 mt-8">
                                 <div className="max-w-6xl mx-auto flex items-center gap-6 w-1/4">
-                                    <img
+                                    <Image
                                         src="/img/experience/symfony/MCD.png"
                                         alt="Banner Image"
                                         width={300}
@@ -265,7 +266,7 @@ export default function Symfony() {
     )
 }
 
-function CircleIcon(props) {
+function CircleIcon(props : { [key: string]: string }) {
     return (
         <svg
             {...props}
@@ -285,7 +286,7 @@ function CircleIcon(props) {
 }
 
 
-function DatabaseIcon(props) {
+function DatabaseIcon(props : { [key: string]: string }) {
     return (
         <svg
             {...props}
@@ -307,7 +308,7 @@ function DatabaseIcon(props) {
 }
 
 
-function ExternalLinkIcon(props) {
+function ExternalLinkIcon(props : { [key: string]: string }) {
     return (
         <svg
             {...props}
@@ -329,7 +330,7 @@ function ExternalLinkIcon(props) {
 }
 
 
-function SearchIcon(props) {
+function SearchIcon(props : { [key: string]: string }) {
     return (
         <svg
             {...props}
@@ -350,7 +351,7 @@ function SearchIcon(props) {
 }
 
 
-function ViewIcon(props) {
+function ViewIcon(props : { [key: string]: string }) {
     return (
         <svg
             {...props}

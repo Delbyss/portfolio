@@ -22,9 +22,9 @@ export default function Home() {
             </div>
           </div>
           <div className="space-y-4">
-            <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Bienvenue sur mon Portfolio</h1>
+            <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Bienvenue sur mon Portfolio </h1>
             <p className="text-gray-500 dark:text-gray-400">
-              je m'apelle <b className="text-cyan-600">DELAPLACE Hugo</b>,
+              je m&apos;apelle <b className="text-cyan-600">DELAPLACE Hugo</b>,
               Je suis étudiant au sein du Campus La Chataigneraie situé au Mesnil-Esnard.
               Actuellement en BTS :
               Services informatiques aux organisations.
@@ -55,8 +55,8 @@ export default function Home() {
         </ul>
       </div>
     </section>
-    <Competence></Competence>
-    <Connaissance></Connaissance>
+    <Competence/>
+    <Connaissance/>
     
     </main>
   );

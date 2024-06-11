@@ -11,7 +11,7 @@ export default function Veille() {
                     <h3 className="text-xl font-semibold">Thème</h3>
                     <p className="mt-2 text-gray-600">
                         Cyber Vulnérabilité, les failles de sécuriser dans l’informatique La cyber vulnérabilité désigne la
-                        vulnérabilité des systèmes informatiques aux attaques malveillantes. Il s'agit des faiblesses ou des failles
+                        vulnérabilité des systèmes informatiques aux attaques malveillantes. Il s&apos;agit des faiblesses ou des failles
                         de sécurité dans les systèmes informatiques, qui peuvent être exploitées par des pirates informatiques pour
                         accéder à des informations sensibles ou perturber le fonctionnement des systèmes.
                     </p>
@@ -72,10 +72,10 @@ export default function Veille() {
                             <h3 className="text-lg font-semibold text-green-600">Avantages</h3>
                             <ul className="list-disc list-inside">
                                 <li>Ergonomique</li>
-                                <li>Permet de suivre l'actualité des grosses platformes</li>
+                                <li>Permet de suivre l&apos;actualité des grosses platformes</li>
                             </ul>
                             <h3 className="text-lg font-semibold text-red-800">Inconvénient</h3>
-                            <li> Bruit (Beaucoup d'informations non pertinentes) </li>
+                            <li> Bruit (Beaucoup d&apos;informations non pertinentes) </li>
                             <li> Faux informations</li>
                             <li> Demande de la recherche </li>
                         </div>

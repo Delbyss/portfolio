@@ -1,3 +1,4 @@
+import Image from "next/image";
 
 export default function Csharp() {
     return (
@@ -8,7 +9,7 @@ export default function Csharp() {
                     <section className="bg-gray-100 p-6 rounded-lg">
                         <h2 className="text-2xl font-semibold mb-4">Contexte</h2>
                         <p>
-                            Le projet concerne le développement d'une application de pointage pour la société PowerDev.
+                            Le projet concerne le développement d&apos;une application de pointage pour la société PowerDev.
                             Cette application est destinée à permettre le pointage des entrées et sorties des salariés,
                             ainsi que la gestion des salariés par un administrateur.
                         </p>
@@ -21,14 +22,14 @@ export default function Csharp() {
                                     <WrenchIcon className="mt-1 flex-shrink-0 w-6 h-6 text-gray-600" />
                                     <div className="ml-4">
                                         <h3 className="text-lg font-semibold">Gestion du Pointage</h3>
-                                        <p>Permettre aux salariés de pointer leurs arrivées et départs dans l'entreprise.</p>
+                                        <p>Permettre aux salariés de pointer leurs arrivées et départs dans l&apos;entreprise.</p>
                                     </div>
                                 </li>
                                 <li className="flex items-start">
                                     <ShieldCheckIcon className="mt-1 flex-shrink-0 w-6 h-6 text-gray-600" />
                                     <div className="ml-4">
                                         <h3 className="text-lg font-semibold">Accès Sécurisé</h3>
-                                        <p>Implémenter une connexion sécurisée pour accéder à l'application.</p>
+                                        <p>Implémenter une connexion sécurisée pour accéder à l&apos;application.</p>
                                     </div>
                                 </li>
                                 <li className="flex items-start">
@@ -67,11 +68,11 @@ export default function Csharp() {
                             </div>
                             <div className="w-full bg-gray-100 dark:bg-gray-950 py-6 px-4 md:px-6 lg:px-8 mt-8">
                                 <div className="max-w-6xl mx-auto flex items-center gap-6 w-1/4">
-                                    <img
+                                    <Image
                                         src="/img/experience/csharp/Trello.png"
-                                        alt="Banner Image"
-                                        width={300}
-                                        height={300}
+                                        alt="Image"
+                                        width={600}
+                                        height={600}
                                         className="flex-1 rounded-lg object-cover aspect-square"
                                     />
                                 </div>
@@ -84,7 +85,7 @@ export default function Csharp() {
                                 <ViewIcon className="h-6 w-6 text-gray-600 mr-3" />
                                 <h3 className="font-semibold">Figma</h3>
                             </div>
-                            <p>Utilisation de Figma pour la création des maquettes de l'application MAUI. </p>
+                            <p>Utilisation de Figma pour la création des maquettes de l&apos;application MAUI. </p>
                             <div className="mt-4">
                                 <a href="https://www.figma.com/" className="flex items-center text-blue-600 hover:underline">
                                     <ExternalLinkIcon className="h-4 w-4 text-gray-600 mr-2" />
@@ -93,25 +94,33 @@ export default function Csharp() {
                             </div>
                             <div className="w-full bg-gray-100 dark:bg-gray-950 py-6 px-4 md:px-6 lg:px-8 mt-8">
                                 <div className="max-w-6xl mx-auto flex flex-wrap items-center gap-6">
-                                    <img
+                                    <Image
                                         src="/img/experience/csharp/login.png"
-                                        alt="Banner Image"
+                                        alt="Image"
                                         className="flex-1 rounded-lg object-cover max-w-full w-full h-auto"
+                                        width={300}
+                                        height={300}
                                     />
-                                    <img
+                                    <Image
                                         src="/img/experience/csharp/historique.png"
-                                        alt="Banner Image"
+                                        alt="Image"
                                         className="flex-1 rounded-lg object-cover max-w-full w-full h-auto"
+                                        width={300}
+                                        height={300}
                                     />
-                                    <img
+                                    <Image
                                         src="/img/experience/csharp/historique2.png"
-                                        alt="Banner Image"
+                                        alt="Image"
                                         className="flex-1 rounded-lg object-cover max-w-full w-full h-auto"
+                                        width={300}
+                                        height={300}
                                     />
-                                    <img
+                                    <Image
                                         src="/img/experience/csharp/admin.png"
-                                        alt="Banner Image"
+                                        alt="Image"
                                         className="flex-1 rounded-lg object-cover max-w-full w-full h-auto"
+                                        width={300}
+                                        height={300}
                                     />
                                 </div>
                             </div>
@@ -134,16 +143,16 @@ export default function Csharp() {
                             <div className="w-full bg-gray-100 dark:bg-gray-950 py-6 px-4 md:px-6 lg:px-8 mt-8">
                                 <div className="w-full bg-gray-100 dark:bg-gray-950 py-6 px-4 md:px-6 lg:px-8">
                                     <div className="max-w-6xl mx-auto flex items-center gap-6 w-1/2">
-                                        <img
+                                        <Image
                                             src="/img/experience/csharp/github.png"
-                                            alt="Banner Image"
+                                            alt="Image"
                                             width={300}
                                             height={300}
                                             className="flex-1 rounded-lg object-cover aspect-square w-full"
                                         />
-                                        <img
+                                        <Image
                                             src="/img/experience/csharp/github_act.png"
-                                            alt="Banner Image"
+                                            alt="Image"
                                             width={300}
                                             height={300}
                                             className="flex-1 rounded-lg object-cover aspect-square w-full"
@@ -173,9 +182,9 @@ export default function Csharp() {
                                 <div className="w-full bg-gray-100 dark:bg-gray-950 py-6 px-4 md:px-6 lg:px-8">
                                     <div className="w-full bg-gray-100 dark:bg-gray-950 py-6 px-4 md:px-6 lg:px-8">
                                         <div className="max-w-6xl mx-auto flex items-center gap-6 w-1/4">
-                                            <img
+                                            <Image
                                                 src="/img/experience/csharp/gdrive.png"
-                                                alt="Banner Image"
+                                                alt="Image"
                                                 width={600}
                                                 height={300}
                                                 className="flex-1 rounded-lg object-cover w-[600px]"
@@ -188,19 +197,19 @@ export default function Csharp() {
                     </section>
 
                     <section className="bg-gray-100 p-6 rounded-lg">
-                        <h2 className="text-2xl font-semibold mb-4">Structure de l'application</h2>
+                        <h2 className="text-2xl font-semibold mb-4">Structure de l&apos;application</h2>
                         <div className="bg-gray-200 p-4 rounded-lg">
                             <div className="flex items-center mb-4">
                                 <ViewIcon className="h-6 w-6 text-gray-600 mr-3" />
                                 <h3 className="font-semibold">Usercase</h3>
                             </div>
-                            <p>Usercase du projet MAUI, décrivant les différents acteurs et les fonctionnalités de l'application. </p>
+                            <p>Usercase du projet MAUI, décrivant les différents acteurs et les fonctionnalités de l&apos;application. </p>
 
                             <div className="w-full bg-gray-100 dark:bg-gray-950 py-6 px-4 md:px-6 lg:px-8 mt-8">
                                 <div className="max-w-6xl mx-auto flex items-center gap-6 w-1/4">
-                                    <img
+                                    <Image
                                         src="/img/experience/csharp/usecase.png"
-                                        alt="Banner Image"
+                                        alt="Image"
                                         width={300}
                                         height={300}
                                         className="flex-1 rounded-lg object-cover aspect-square"
@@ -218,9 +227,9 @@ export default function Csharp() {
 
                             <div className="w-full bg-gray-100 dark:bg-gray-950 py-6 px-4 md:px-6 lg:px-8 mt-8">
                                 <div className="max-w-6xl mx-auto flex items-center gap-6 w-1/4">
-                                    <img
+                                    <Image
                                         src="/img/experience/csharp/MCD.png"
-                                        alt="Banner Image"
+                                        alt="Image"
                                         width={300}
                                         height={300}
                                         className="flex-1 rounded-lg object-cover aspect-square"
@@ -248,7 +257,7 @@ export default function Csharp() {
                                         <div className="text-sm text-gray-500">Site web</div>
                                     </div>
                                 </a>
-                                
+
                             </div>
                         </div>
                     </section>
@@ -259,28 +268,28 @@ export default function Csharp() {
     )
 }
 
-function ClockIcon(props) {
-    return (
-        <svg
-            {...props}
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            strokeWidth="2"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-        >
-            <circle cx="12" cy="12" r="10" />
-            <polyline points="12 6 12 12 16 14" />
-        </svg>
+function ClockIcon(props: { [key: string]: string })  {
+    return (    
+            <svg
+                {...props}
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+            >
+                <circle cx="12" cy="12" r="10" />
+                <polyline points="12 6 12 12 16 14" />
+            </svg>
     )
 }
 
 
-function ShieldCheckIcon(props) {
+function ShieldCheckIcon(props: { [key: string]: string }) {
     return (
         <svg
             {...props}
@@ -293,6 +302,7 @@ function ShieldCheckIcon(props) {
             strokeWidth="2"
             strokeLinecap="round"
             strokeLinejoin="round"
+
         >
             <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" />
             <path d="m9 12 2 2 4-4" />
@@ -301,7 +311,7 @@ function ShieldCheckIcon(props) {
 }
 
 
-function UsersIcon(props) {
+function UsersIcon(props: { [key: string]: string }) {
     return (
         <svg
             {...props}
@@ -324,7 +334,7 @@ function UsersIcon(props) {
 }
 
 
-function WrenchIcon(props) {
+function WrenchIcon(props: { [key: string]: string }) {
     return (
         <svg
             {...props}
@@ -345,7 +355,7 @@ function WrenchIcon(props) {
 }
 
 
-function ViewIcon(props) {
+function ViewIcon(props: { [key: string]: string }) {
     return (
         <svg
             {...props}
@@ -367,7 +377,7 @@ function ViewIcon(props) {
     )
 }
 
-function ExternalLinkIcon(props) {
+function ExternalLinkIcon(props: { [key: string]: string }) {
     return (
         <svg
             {...props}
@@ -387,3 +397,4 @@ function ExternalLinkIcon(props) {
         </svg>
     )
 }
+
