@@ -4,7 +4,7 @@ import { useState } from "react"
 
 export default function TableauRealisation() {
     const [activeSection, setActiveSection] = useState("skills")
-    const toggleSection = (section) => {
+    const toggleSection = (section : string) => {
         setActiveSection(section)
     }
     const data = {
